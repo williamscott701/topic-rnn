@@ -6,7 +6,7 @@ import torch
 from allennlp.training.metrics.metric import Metric
 
 
-@Metric.register("perplexity")
+@Metric.register("perplex_new")
 class Perplexity(Metric):
     """
     Computes per-word perplexity for a validation / test corpus.
